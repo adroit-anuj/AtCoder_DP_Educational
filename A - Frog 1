@@ -9,7 +9,7 @@ Idea:
   One may get feel from the above observation that we are supposed to use RECURSION.
 
 Why DP:
-  Suppose the minimum cost to reach the 3rd platform is as fllows:   
+  Suppose the minimum cost to reach the 3rd platform is as follows:   
       1->2->3;
   and, to reach the minimum cost to reach the 4th platform is as follows:  
       1->2->4;
