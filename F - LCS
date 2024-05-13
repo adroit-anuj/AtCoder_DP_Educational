@@ -3,11 +3,9 @@ The Idea:
         "adroitanuj" and "adroitanuj". Pretty simmple, right? Since both are same, the answer is 10;
   2. Consider these two strings now:-
         "adroitanuj" and "xxxadroitanuj". Again pretty simmple, right? You remove the substring "xxx" from the second string, you get the result same as 1.
-  
   3. Consider these two strings now:-
         "adroitanuj" and "xaxdxrxoxixtxaxnxuxj".
         So, just ignore the "x" character. You get the same result as 1.
-
   4. So, every time the first character of both string are same, you increment the counter by 1, and remove both the characters.
   5. If they are not same, eith remove the first character from first string, or from the second string, or from both. Who knows which path would 
      give you the maximum value? Let that be done by recursion. You should not worry about it.
@@ -19,12 +17,8 @@ The Idea:
       - else follow the maximum of these two and check if s1[i]==s2[j] or not.
       - Do these steps until you hit dp[0][0];
       
-      
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 Code:   (C++)
-
-
 
 #include<bits/stdc++.h>
 using namespace std;
