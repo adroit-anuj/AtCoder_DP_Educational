@@ -1,13 +1,13 @@
-Note:
-  Please read the file "A - Frog 1". The logic remains in that file only.
-  This problem is just an extension of problem A;
+// Note:
+//   Please read the file "A - Frog 1". The logic remains in that file only.
+//   This problem is just an extension of problem A;
 
-Resemblance:
-  Here, we are free to jump from atmost Kth platform to the current platform, earlier we were restricted to K=2;
-  Just run the loop from the current platform to the K-th previous platform, and return the minimum of them.
+// Resemblance:
+//   Here, we are free to jump from atmost Kth platform to the current platform, earlier we were restricted to K=2;
+//   Just run the loop from the current platform to the K-th previous platform, and return the minimum of them.
 
--------------------------------------------------------------------------------------------------------------------------
-Code: (C++)
+// -------------------------------------------------------------------------------------------------------------------------
+// Code: (C++)
 
   #include<bits/stdc++.h>
   using namespace std;
