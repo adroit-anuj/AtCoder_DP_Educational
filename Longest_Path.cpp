@@ -1,10 +1,10 @@
-Idea:-
-  * Just do dfs at every node, and store the maximum depth of every node in an array, name it as DP;
-  * The maximum value has to be stored only.
-  * Output the maximum value from the DP array;
+// Idea:-
+//   * Just do dfs at every node, and store the maximum depth of every node in an array, name it as DP;
+//   * The maximum value has to be stored only.
+//   * Output the maximum value from the DP array;
 
-====================================================================================================================
-Code:-  (C++)
+// ====================================================================================================================
+// Code:-  (C++)
 
 #include<bits/stdc++.h>
 #define int long long int
